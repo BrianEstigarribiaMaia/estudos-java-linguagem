@@ -11,7 +11,7 @@ public class CriarArquivo {
 			if(arquivo.createNewFile()){
 				System.out.println("Arquivo criado: "+arquivo.getName());
 			}else{
-				System.out.println("Arquivo j· existe.");
+				System.out.println("Arquivo j√° existe.");
 			}
 		} catch (IOException e) {
 			System.out.println("Ocorreu um erro.");
