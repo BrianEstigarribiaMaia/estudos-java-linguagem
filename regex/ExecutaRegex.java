@@ -12,9 +12,9 @@ public class ExecutaRegex {
 		boolean encontrarCombinacao = combinar.find();
 		
 		if(encontrarCombinacao){
-			System.out.println("Combinação encontrada");
+			System.out.println("CombinaÃ§Ã£o encontrada");
 		}else{
-			System.out.println("Combinação Não encontrada");
+			System.out.println("CombinaÃ§Ã£o NÃ£o encontrada");
 		}
 	}
 }
