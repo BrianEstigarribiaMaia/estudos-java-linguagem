@@ -1,4 +1,4 @@
-package br.com.estudos.java;
+package br.com.estudos.java.datas;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
