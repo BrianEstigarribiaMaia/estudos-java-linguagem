@@ -10,6 +10,7 @@ Utilizei a plataforma GitHub como meio de organizar os Códigos e compartilhar o
    <li> Strings </li>
    <li> Date/Time </li>
    <li> RegEx </li>
+   <li> Enums </li>
    <li> Files and IO </li>
    <li> Exceptions </li>
    <li> Serialization </li>
