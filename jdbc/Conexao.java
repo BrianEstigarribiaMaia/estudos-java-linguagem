@@ -13,7 +13,7 @@ public class Conexao {
 
 	}
 
-	private Connection conectar() {
+	public Connection conectar() {
 		Connection conn = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
@@ -27,7 +27,7 @@ public class Conexao {
 		return conn;
 	}
 
-	private void desconectar(Connection conn) {
+	public void desconectar(Connection conn) {
 		try {
 			if(conn != null && !conn.isClosed()){
 				conn.close();
