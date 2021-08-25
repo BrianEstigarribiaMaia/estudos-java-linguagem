@@ -34,7 +34,7 @@ public class Conexao {
 				System.out.println("Desconectou do banco de dados.");
 			}
 		} catch (SQLException e) {
-			System.out.println("Não conseguiu desconectar do banco de dados " +e);
+			System.out.println("NÃ£o conseguiu desconectar do banco de dados " +e);
 		}
 		
 	}
